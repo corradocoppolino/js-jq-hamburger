@@ -1,18 +1,14 @@
 $(document).ready(function(){
 
     $(".header-right").click(function(){
+            
+        $(".hamburger-menu").show();
+   
+    })
 
-        var x = $(".hamburger-menu");
-        
-        if (x.style.display === "none") {
+    $(".close").click(function(){
 
-            x.style.display = "block";
-
-        } else {
-
-            x.style.display = "none";
-
-        }
+        $(".hamburger-menu").hide();
         
     })
 
